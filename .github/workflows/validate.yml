@@ -12,7 +12,7 @@ jobs:
   validate:
     name: "Validate ontology"
     runs-on: "ubuntu-latest"
-    container: ghcr.io/opencs-ontology/ci-worker:main
+    container: ghcr.io/niegrzybkowski/ci-worker-test:main
 
     steps:
       - name: "Checkout repository"
