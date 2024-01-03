@@ -21,4 +21,4 @@ jobs:
           path: opencs
 
       - name: "Validate ontology with SHACL"
-        run: python /app/validate.py opencs
+        run: bash /app/validate_jena.sh
