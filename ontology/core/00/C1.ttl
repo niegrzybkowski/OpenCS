@@ -1,7 +1,7 @@
 @prefix ocs: <https://w3id.org/ocs/ont/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ocs:C1 a skos:Concept ;
+ocs:Clol1 a skos:Concept ;
     skos:closeMatch <http://dbpedia.org/resource/Computer_science> ;
     skos:prefLabel "Computer science"@en ;
     skos:related ocs:C8,
