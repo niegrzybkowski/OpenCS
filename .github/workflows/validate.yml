@@ -22,3 +22,10 @@ jobs:
 
       - name: "Validate ontology with SHACL"
         run: bash /app/validate_jena.sh
+
+      - name: "Upload validation report"
+        if: '!cancelled()'
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-report
+          path: package/validation_report.ttl
