@@ -27,5 +27,5 @@ jobs:
         if: '!cancelled()'
         uses: actions/upload-artifact@v3
         with:
-          name: validation_report.ttl
+          name: validation_report
           path: package/validation_report.ttl
